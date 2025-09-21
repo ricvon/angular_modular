@@ -1,9 +1,24 @@
 {
-  "categorias":[
+  "categorias": [
     {
-      "id": "1",
-      "nome": "Restaurantes",
-      "descricao": "Lugares para alimentação"
+      "id": "2",
+      "nome": "Shoping",
+      "descricao": "Para fazer comprar e passear"
+    },
+    {
+      "id": "8a69",
+      "nome": "Praias",
+      "descricao": "Lugares para se divertir com a família"
+    },
+    {
+      "id": "c75a",
+      "nome": "teste",
+      "descricao": "teste"
+    },
+    {
+      "id": "c3ae",
+      "nome": "teste1",
+      "descricao": "teste1"
     }
   ]
 }
