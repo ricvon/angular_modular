@@ -1,6 +1,11 @@
 {
   "categorias": [
     {
+      "id": "1",
+      "nome": "Parques",
+      "descricao": "Para caminhar com a família"
+    },
+    {
       "id": "2",
       "nome": "Shoping",
       "descricao": "Para fazer comprar e passear"
@@ -19,7 +24,22 @@
       "localizacao": "Rio de Janeiro",
       "urlFoto": "teste",
       "avaliacao": "3"
+    },
+    {
+      "id": "6987",
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://www.bing.com/images/search?q=fotos%20da%20bahia&view=detailv2&FORM=IQFRBA&id=4343227D52862C259F08293071AD1A5B8D9ADD94&selectedindex=1&&expw=1600&exph=1066&ccid=jr36JRkx&ck=EF9C379984ACE2A35E365E8A0873A6B7&simid=608049507845751798&thid=OIP.jr36JRkx9KZvNT_xyEOnegHaE7&idpp=serp&idpbck=1",
+      "avaliacao": "4"
+    },
+    {
+      "id": "a5df",
+      "nome": "Parque Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://www.bing.com/th/id/OIP.bt3uRy1BzGPXAjyeezgJ7gHaE6?w=245&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2",
+      "avaliacao": "5"
     }
   ]
-
 }

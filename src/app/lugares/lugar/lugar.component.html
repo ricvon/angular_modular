@@ -12,7 +12,7 @@
              placeholder="Ex: Praia do Sol, Restaurantes Estrela"
              class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
              requided/>
-      <span class="text-red-500 text-sm" >
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('nome')">
         Campo Obrigatório
       </span>
     </div>
@@ -27,6 +27,9 @@
         <option [value]="">Selecione uma categoria</option>
         <option *ngFor="let cat of categorias" [value]="cat.nome">{{cat.nome}}</option>
       </select>
+            <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('categoria')">
+        Campo Obrigatório
+      </span>
     </div>
 
     <div class="mb-4">
@@ -38,7 +41,7 @@
              placeholder="Ex: São Paulo"
              class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
              requided/>
-      <span class="text-red-500 text-sm">
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('localizacao')">
         Campo Obrigatório
       </span>
     </div>
@@ -52,7 +55,7 @@
              placeholder="Ex: http://exemplo.com.br/foto.jpg"
              class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
              requided/>
-      <span class="text-red-500 text-sm">
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('urlFoto')">
         Campo Obrigatório
       </span>
     </div>
@@ -64,13 +67,16 @@
             name="avaliacao"
             formControlName="avaliacao"
             class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400">
-        <option [value]="">Selecione uma categoria</option>
-        <option [value]="1">1 - Ruim</option>
-        <option [value]="2">2 - Regular</option>
-        <option [value]="3">3 - Bom</option>
-        <option [value]="4">4 - Muito Bom</option>
-        <option [value]="5">5 - Excelente</option>
+            <option [value]="">Selecione uma categoria</option>
+            <option [value]="1">1 - Ruim</option>
+            <option [value]="2">2 - Regular</option>
+            <option [value]="3">3 - Bom</option>
+            <option [value]="4">4 - Muito Bom</option>
+            <option [value]="5">5 - Excelente</option>'
          </select>
+      <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('avaliacao')">
+        Campo Obrigatório
+      </span>
     </div>
 
     <button type="submit" class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow  hover:bg-blue-700">
