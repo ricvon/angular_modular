@@ -19,18 +19,18 @@
   "lugares": [
     {
       "id": "0d90",
-      "nome": "Bar do zé",
+      "nome": "Cristo Redentor",
       "categoria": "Praias",
       "localizacao": "Rio de Janeiro",
-      "urlFoto": "teste",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTVQLeOVVvGQeKNepfRdb9OILH5dLtF9WcYBL9_Ho1PH4gRfc16wlh9kCFdLrYz9KHe2wmQxOa3ZhfKZAwvSyHZCW7Dx3gIOg-tg1Bu4Q",
       "avaliacao": "3"
     },
     {
       "id": "6987",
-      "nome": "Praia do Espelho",
+      "nome": "Piscinas naturais de Taipu de Fora",
       "categoria": "Praias",
       "localizacao": "Bahia",
-      "urlFoto": "https://www.bing.com/images/search?q=fotos%20da%20bahia&view=detailv2&FORM=IQFRBA&id=4343227D52862C259F08293071AD1A5B8D9ADD94&selectedindex=1&&expw=1600&exph=1066&ccid=jr36JRkx&ck=EF9C379984ACE2A35E365E8A0873A6B7&simid=608049507845751798&thid=OIP.jr36JRkx9KZvNT_xyEOnegHaE7&idpp=serp&idpbck=1",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2017/12/taipudefora-820x547.jpg",
       "avaliacao": "4"
     },
     {
