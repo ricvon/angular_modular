@@ -23,8 +23,7 @@ export class CategoriaComponent {
     this.camposForm.markAllAsTouched();
     if (this.camposForm.valid){
       //console.log('valores digitados: ', this.camposForm.value)
-      this.service
-        .salvar(this.camposForm.value)
+      this.service.salvar(this.camposForm.value)
         .subscribe({
           next: categoria => {
             console.log('Salva com sucesso! ', categoria);
